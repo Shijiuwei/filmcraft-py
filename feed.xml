@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>filmcraft-py</title>
+  <subtitle>Official architecture documentation and production specifications for filmcraft-py</subtitle>
+  <link href="https://Shijiuwei.github.io/filmcraft-py/feed.xml" rel="self"/>
+  <id>https://Shijiuwei.github.io/filmcraft-py/</id>
+  <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+  <entry>
+    <title>Agents</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/agents.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/agents.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>FilmCraft is built to be driven by AI agents, and largely built by them. Part 1 covers using</summary>
+  </entry>
+  <entry>
+    <title>Architecture</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/architecture.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/architecture.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>FilmCraft is a Cargo workspace of small crates with strictly enforced layering. The engine is</summary>
+  </entry>
+  <entry>
+    <title>Captions</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/captions.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/captions.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>FilmCraft keeps captions on caption tracks in the sequence, shown in their own area above the</summary>
+  </entry>
+  <entry>
+    <title>Codec parity</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/codec-parity.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/codec-parity.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>Video and audio codecs, decode and encode, with fidelity and how each is tested. Containers,</summary>
+  </entry>
+  <entry>
+    <title>Contributing</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/contributing.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/contributing.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>Read AGENTS.md first. Its rules on assets, clean-room code and licences are</summary>
+  </entry>
+  <entry>
+    <title>Contributors in the About window</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/contributors.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/contributors.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>About ▸ Contributors credits everyone who contributed to FilmCraft, and About ▸ Models credits</summary>
+  </entry>
+  <entry>
+    <title>Control protocol &amp; MCP</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/control-protocol.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/control-protocol.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>filmcraft --control 9876 (or FILMCRAFT_CONTROL_PORT) listens on 127.0.0.1:&lt;port&gt; (loopback only).</summary>
+  </entry>
+  <entry>
+    <title>File format parity</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/file-format-parity.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/file-format-parity.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>Containers, stills, audio files, project and interchange files, captions and presets. Codecs inside</summary>
+  </entry>
+  <entry>
+    <title>Where FilmCraft falls short of Premiere Pro</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/gaps.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/gaps.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>Every known shortfall, one entry each, ranked by what most stops an editor using FilmCraft for real</summary>
+  </entry>
+  <entry>
+    <title>Graphics</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/graphics.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/graphics.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>FilmCraft&#39;s graphics work like Premiere&#39;s Essential Graphics: a graphic clip on a video track</summary>
+  </entry>
+  <entry>
+    <title>Hardware parity</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/hardware-parity.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/hardware-parity.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>Each hardware feature Premiere uses, per platform, against ours. Implementation detail lives in</summary>
+  </entry>
+  <entry>
+    <title>Keyboard parity with Premiere Pro</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/keyboard.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/keyboard.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>FilmCraft&#39;s Premiere Pro Compatible shortcut preset (Edit ▸ Keyboard Shortcuts…) follows</summary>
+  </entry>
+  <entry>
+    <title>Localization parity</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/localization-parity.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/localization-parity.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>Per-language status of FilmCraft&#39;s interface. Premiere 26.5.2 ships 10 interface languages (the</summary>
+  </entry>
+  <entry>
+    <title>Monitor view options</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/monitors.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/monitors.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>The View menu and each monitor&#39;s wrench menu set how the Source and Program monitors show their</summary>
+  </entry>
+  <entry>
+    <title>Performance</title>
+    <link href="https://Shijiuwei.github.io/filmcraft-py/docs/performance.html"/>
+    <id>https://Shijiuwei.github.io/filmcraft-py/docs/performance.html</id>
+    <updated>2026-11-16T19:29:10.499944200+00:00</updated>
+    <summary>cargo xtask bench measures the whole app headlessly and writes target/bench/bench-&lt;label&gt;.json</summary>
+  </entry>
+</feed>

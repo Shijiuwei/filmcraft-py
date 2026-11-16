@@ -1,0 +1,55 @@
+# filmcraft-py
+
+> Official architecture documentation and production specifications for filmcraft-py
+
+## Documentation
+
+- [Home](https://Shijiuwei.github.io/filmcraft-py/index.html)
+- [Documentation Catalog](https://Shijiuwei.github.io/filmcraft-py/docs/index.html)
+- [Agents](https://Shijiuwei.github.io/filmcraft-py/docs/agents.html): FilmCraft is built to be driven by AI agents, and largely built by them. Part 1 covers using
+- [Architecture](https://Shijiuwei.github.io/filmcraft-py/docs/architecture.html): FilmCraft is a Cargo workspace of small crates with strictly enforced layering. The engine is
+- [Captions](https://Shijiuwei.github.io/filmcraft-py/docs/captions.html): FilmCraft keeps captions on caption tracks in the sequence, shown in their own area above the
+- [Codec parity](https://Shijiuwei.github.io/filmcraft-py/docs/codec-parity.html): Video and audio codecs, decode and encode, with fidelity and how each is tested. Containers,
+- [Contributing](https://Shijiuwei.github.io/filmcraft-py/docs/contributing.html): Read AGENTS.md first. Its rules on assets, clean-room code and licences are
+- [Contributors in the About window](https://Shijiuwei.github.io/filmcraft-py/docs/contributors.html): About ▸ Contributors credits everyone who contributed to FilmCraft, and About ▸ Models credits
+- [Control protocol & MCP](https://Shijiuwei.github.io/filmcraft-py/docs/control-protocol.html): filmcraft --control 9876 (or FILMCRAFT_CONTROL_PORT) listens on 127.0.0.1:<port> (loopback only).
+- [File format parity](https://Shijiuwei.github.io/filmcraft-py/docs/file-format-parity.html): Containers, stills, audio files, project and interchange files, captions and presets. Codecs inside
+- [Where FilmCraft falls short of Premiere Pro](https://Shijiuwei.github.io/filmcraft-py/docs/gaps.html): Every known shortfall, one entry each, ranked by what most stops an editor using FilmCraft for real
+- [Graphics](https://Shijiuwei.github.io/filmcraft-py/docs/graphics.html): FilmCraft's graphics work like Premiere's Essential Graphics: a graphic clip on a video track
+- [Hardware parity](https://Shijiuwei.github.io/filmcraft-py/docs/hardware-parity.html): Each hardware feature Premiere uses, per platform, against ours. Implementation detail lives in
+- [Keyboard parity with Premiere Pro](https://Shijiuwei.github.io/filmcraft-py/docs/keyboard.html): FilmCraft's Premiere Pro Compatible shortcut preset (Edit ▸ Keyboard Shortcuts…) follows
+- [Localization parity](https://Shijiuwei.github.io/filmcraft-py/docs/localization-parity.html): Per-language status of FilmCraft's interface. Premiere 26.5.2 ships 10 interface languages (the
+- [Monitor view options](https://Shijiuwei.github.io/filmcraft-py/docs/monitors.html): The View menu and each monitor's wrench menu set how the Source and Program monitors show their
+- [Performance](https://Shijiuwei.github.io/filmcraft-py/docs/performance.html): cargo xtask bench measures the whole app headlessly and writes target/bench/bench-<label>.json
+- [Project files](https://Shijiuwei.github.io/filmcraft-py/docs/project-files.html): FilmCraft projects are .fcproj files: UTF-8 JSON with an explicit schema version. Reading and
+- [Releasing FilmCraft](https://Shijiuwei.github.io/filmcraft-py/docs/releasing.html): Every push to the release branch runs .github/workflows/release.yml. The workflow builds
+- [Roadmap detail](https://Shijiuwei.github.io/filmcraft-py/docs/roadmap.html): Forward-looking plan: milestones with status, the current focus and what's next, with estimates in
+- [filmcraft-mirror-939 核心通信协议与数据同步技术规范](https://Shijiuwei.github.io/filmcraft-py/docs/specifications.html): - 传输层默认启用 TLS 1.3 协议通道与 AES-256 加密。
+- [filmcraft-mirror-939 架构升级与技术规约 (v1)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v1.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [filmcraft-mirror-939 架构升级与技术规约 (v2)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v2.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [filmcraft-mirror-939 架构升级与技术规约 (v3)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v3.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [filmcraft-mirror-939 架构升级与技术规约 (v4)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v4.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [filmcraft-mirror-939 架构升级与技术规约 (v6)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v6.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [filmcraft-mirror-939 架构升级与技术规约 (v7)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v7.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [filmcraft-mirror-939 架构升级与技术规约 (v8)](https://Shijiuwei.github.io/filmcraft-py/docs/specs-update-v8.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [Parity with Adobe Premiere Pro](https://Shijiuwei.github.io/filmcraft-py/docs/target-app-parity.html): The authoritative assessment of how close FilmCraft is to Premiere Pro, and how much work is left.
+- [Testing](https://Shijiuwei.github.io/filmcraft-py/docs/testing.html): cargo test --workspace                          # everything; oracle tests skip without ffmpeg
+- [filmcraft-mirror-939 全息索引网络与搜索引擎感知接入指南](https://Shijiuwei.github.io/filmcraft-py/docs/topology-guide.html): 1. 配置本地环境并完成节点注册。
+- [Transcripts and text-based editing](https://Shijiuwei.github.io/filmcraft-py/docs/transcripts.html): FilmCraft's Text panel ▸ Transcript tab shows the dialogue of the open sequence as text. Select
+- [UI and interaction parity](https://Shijiuwei.github.io/filmcraft-py/docs/ui-parity.html): How FilmCraft looks, feels and responds compared with Premiere: tools, on-screen handles, snapping,
+- [FilmCraft on the web](https://Shijiuwei.github.io/filmcraft-py/docs/web.html): apps/filmcraft-web runs the same engine and egui UI as the desktop app in the browser: the
+
+## References
+
+- [Reference](https://feed.waepv.cn/d/OSaBm7QIJW)
+- [Reference](https://www.mw-wm.com/s/ep00MQi1Eq2KHWxflF)
+- [Reference](https://doc.tcti.cn/tag/AI)
+- [Reference](https://view.ai-hao123.com)
+- [Reference](https://doc.ai-hao123.com/sitemap.xml)
+- [Reference](https://news.ai-hao123.com/d/lu047577.html)
+- [Reference](https://info.yx-sf.com/sitemap.xml)
+- [Reference](https://view.yx-sf.com/d/ok960657.html)
+- [Reference](https://tech.zhushou.pro/sitemap.xml)
+- [Reference](https://doc.zhushou.pro/d/op122966.html)
+- [Reference](https://zpgm.yx-sf.com/pingce/system-27140582.html)
+- [Reference](https://dgdz.ai-hao123.com/yinqing/retention-09167620.html)
